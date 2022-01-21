@@ -18,7 +18,7 @@
         "views/res_partner.xml",
         "views/medical_speciality.xml",
         "views/region.xml",
-        "views/department.xml",
+        "views/potential.xml",
         "views/brick_ims.xml",
     ],
 }

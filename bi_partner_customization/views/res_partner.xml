@@ -11,7 +11,7 @@
                   <group>
                     <field name="medical_id" attrs="{'invisible': [('is_health', '=', False)]}"/>
                     <field name="workplace_id" attrs="{'invisible': [('is_health', '=', False)]}"/>
-                    <field name="department_id" attrs="{'invisible': [('is_health', '=', False)]}"/>
+                    <field name="potential_id" attrs="{'invisible': [('is_health', '=', False)]}"/>
                     <field name="brick_id" attrs="{'invisible': [('is_health', '=', False)]}"/>
                     <field name="is_health" invisible ="1"/>
                 </group>
