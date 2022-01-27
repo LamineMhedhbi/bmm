@@ -9,6 +9,8 @@ class ResPartner(models.Model):
     region_id = fields.Many2one("geographical.region", string="Geographical Region")
     last_name = fields.Char("Last Name")
     department_id = fields.Many2one("department", string="Department")
+    potential_id = fields.Many2one("potential", string="Potential")
+    gsu_id = fields.integer("GSU")
     brick_id = fields.Many2one("brick.ims", string="Brick IMS")
     is_health = fields.Boolean("is_health", copy=False)
 
